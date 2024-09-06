@@ -52,9 +52,12 @@ For certain types of envelopes, especially ceremonial ones, there is an art to h
 - **Vertical Folding**: Often used for formal or ceremonial envelopes, where the content is folded and placed vertically inside the envelope.
 - **Horizontal Folding**: Used for more casual correspondence, where the letter or content is folded in a western style and placed horizontally.
 
-## Conclusion
+## Explore More
 
-Japanese envelopes are more than just stationery; they are a reflection of the culture’s respect for formality, attention to detail, and deep-rooted traditions. Each type of envelope has its own place in Japanese life, from personal correspondence to formal occasions like weddings and funerals. By exploring the templates in this repository, you can gain an understanding of the beauty and complexity of Japanese envelope design.
+If you're interested in learning more about Japanese envelope culture and traditions, feel free to visit my website:  
+**[futo-kamibukuro.com](https://www.futo-kamibukuro.com/)**
 
-Feel free to explore the various templates provided and learn how to incorporate these unique designs into your own projects or gift-giving!
+You can also follow us on Facebook for regular updates and discussions about Japanese stationery and culture:  
+**[[Facebook Page]](https://www.facebook.com/futo.kamibukuro)**
+
 
