@@ -61,3 +61,7 @@ You can also follow us on Facebook for regular updates and discussions about Jap
 **[[Facebook Page]](https://www.facebook.com/futo.kamibukuro)**
 
 
+
+## SuguCheck（リスト診断・クレンジングツール）
+
+DM発送用リストの事前診断・クレンジングを行うWebツールを [`sugucheck/`](sugucheck/) に収録しています。詳細は [sugucheck/README.md](sugucheck/README.md) を参照してください。
