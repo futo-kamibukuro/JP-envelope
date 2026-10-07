@@ -216,6 +216,12 @@ describe('文字コード・CSV', () => {
     expect(decodeBytes(bom)).toMatchObject({ encoding: 'utf-8', hasBom: true, text });
   });
 
+  it('UTF-8 本文中の置換文字はデコード失敗として数えない', () => {
+    const bytes = new TextEncoder().encode('氏名\n山' + String.fromCodePoint(0xfffd) + '\n');
+    expect(decodeBytes(bytes).errors).toBe(0);
+    expect(decodeBytes(new Uint8Array([0x41, 0xff, 0x42]), 'utf-8').errors).toBe(1);
+  });
+
   it('CP932 で表現できない文字を検出する', () => {
     const r = encodeCp932('髙𠮷');
     expect(r.unmappable.get('𠮷')).toBe(1);

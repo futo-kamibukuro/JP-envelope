@@ -60,7 +60,17 @@ export function decodeBytes(bytes: Uint8Array, forced?: EncodingName | null): De
   let body = bytes;
   if (encoding === 'utf-8' && hasBom) body = bytes.subarray(3);
   const text = new TextDecoder(encoding, { ignoreBOM: true }).decode(body);
-  return { text, encoding, detected, hasBom, errors: countReplacement(text) };
+  // UTF-8 として正しく読めた場合、本文中の置換文字はデータそのもの（C-04で指摘）でありデコード失敗ではない
+  let errors = countReplacement(text);
+  if (encoding === 'utf-8' && errors > 0) {
+    try {
+      new TextDecoder('utf-8', { fatal: true }).decode(body);
+      errors = 0;
+    } catch {
+      /* 実際に読めないバイトがある */
+    }
+  }
+  return { text, encoding, detected, hasBom, errors };
 }
 
 // ---------------------------------------------------------------------------

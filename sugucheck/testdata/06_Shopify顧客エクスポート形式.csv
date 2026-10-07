@@ -1,0 +1,5 @@
+﻿Customer ID,First Name,Last Name,Email,Accepts Email Marketing,Default Address Company,Default Address Address1,Default Address Address2,Default Address City,Default Address Province Code,Default Address Country Code,Default Address Zip,Default Address Phone,Phone,Total Spent,Total Orders,Note,Tags
+7001,太郎,山田,yamada@example.jp,yes,,丸の内1-1-1,丸の内ビル3F,千代田区,JP-13,JP,'100-0005,+81-3-0000-1111,,12000.00,3,,
+7002,太郎,山田,YAMADA@example.jp,no,,丸の内1-1-1,丸の内ビル3F,千代田区,JP-13,JP,1000005,03-0000-1111,,0.00,0,,
+7003,花子,鈴木,suzuki@example.jp,yes,,梅田1-1-1,,大阪市北区,JP-27,JP,5300001,,,5000.00,1,"=HYPERLINK(""x"")",
+7004,一郎,佐藤,sato@example.jp,yes,,北7条西1-1,,札幌市北区,JP-01,JP,'0600001,,,800.00,1,,VIP
